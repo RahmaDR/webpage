@@ -1,23 +1,136 @@
-<html>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>
-	Autobiografi
-	</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Autobiografi</title>
 </head>
-<body background="[wallcoo.com]_muffle_1024x768(3).jpg"/>
-	<h1 align="center" style ="color : white" >Anjar's AutoBiografi</h1>
-		<p align = "center"><img src ="Foto10782.jpg"/></p>
-	<p  style = "font-size: 18px  ">
-		<br>Perkenalkan nama lengkap saya adalah Anjar Dwi Rahmawati, teman-teman saya biasa menyapaku dengan nama Anjar.</br>
-		<br>Aku terlahir 20 tahun yang lalu tepatnya di Kabupaten Tulungagung pada tanggal 22 Desember 1992 bertepatan dengan hari Ibu.</br>
-		<br>saya terlahir dengan pasangan suami-istri Bapak Suyaji dan Ibu Triasih serta kedua saudara saya yang paling ganteng yaitu Mas Dedi dan adik Ijal</br>
-		<br>Kami semua hidup bahagia dalam sebuah rumah di desa Bendungan Kecamatan Gondang Kabupaten Tulungagung.</span></br>
-		<br>Untuk Kegiatan Saya sekarang ini adalah saya tercatat sebagai mahasiswa Pendidikan Teknik Informatikan </br>
-		<br>Fakultas Teknik Universitas Negeri Malang</br>
-		<br>Harapan dan cita-cita saya adalah dapat membalas dan membahagiakan orang tua serta bermanfaat bagi siapapun yang ada disekitar saya.</br>
-		<br>tak banyak yang dapat saya ceritakan dalam biografi ini. </br>
-		<br>Salam Kenal.....</br>
-		<br>See You... :D</br>
-	</p>
+<style>
+/* UTILITIES */
+* {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	}
+	body {
+	 font-family: cursive;
+	}
+	a {
+	 text-decoration: none;
+	}
+	li {
+	 list-style: none;
+	}
+	/* NAVBAR STYLING STARTS */
+	.navbar {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 padding: 20px;
+	 background-color: rgb(0, 0, 0);
+	 color: rgb(59, 247, 41);
+	}
+	.nav-links a {
+	 color: rgb(1, 202, 108);
+	}
+	/* LOGO */
+	.logo {
+	 font-size: 32px;
+	}
+	/* NAVBAR MENU */
+	.menu {
+	 display: flex;
+	 gap: 1em;
+	 font-size: 18px;
+	}
+	.menu li:hover {
+	 background-color: #000000;
+	 border-radius: 5px;
+	 transition: 0.3s ease;
+	}
+	.menu li {
+	 padding: 5px 14px;
+	}
+	/* DROPDOWN MENU */
+	.services {
+	 position: relative; 
+	}
+	.dropdown {
+	 background-color: rgb(0, 0, 0);
+	 padding: 1em 0;
+	 position: absolute; /*WITH RESPECT TO PARENT*/
+	 display: none;
+	 border-radius: 8px;
+	 top: 35px;
+	}
+	.dropdown li + li {
+	 margin-top: 10px;
+	}
+	.dropdown li {
+	 padding: 0.5em 1em;
+	 width: 8em;
+	 text-align: center;
+	}
+	.dropdown li:hover {
+	 background-color: #0b8cd6;
+	}
+	.services:hover .dropdown {
+	 display: block;
+	}
+	body {
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+	h1{
+		align-self:"center";
+	    color: rgb(3, 14, 2);
+	}
+	p{
+		font-size: 20px;
+   		display: block;
+   		margin-top: 1em;
+   		margin-bottom: 1em;
+   		margin-left: 0;
+   		margin-right: 0;
+		text-align: justify;
+	}
+</style>
+<body>
+	<nav class="navbar">
+		<ul class="nav-links">
+		  <div class="menu">
+			<li><a href="index.html">index</a></li>
+			<li><a href="biografi.html">Biografi</a></li>
+			<li><a href="C_Vitae.html">Vitae</a></li>
+			<li><a href="form.html">Formulir</a></li>
+			</li>
+		  </div>
+		</ul>
+	  </nav>
+	<h1 style="color: green;">Anjar's AutoBiografi</h1>
+		<p><img src ="Foto10782.jpg"/></p>
+		<h3>Perkenalan</h3>
+			<p>
+			Perkenalkan nama lengkap saya adalah Anjar Dwi Rahmawati, teman-teman saya biasa menyapaku dengan nama Anjar.
+			<br> Aku terlahir 20 tahun yang lalu tepatnya di Kabupaten Tulungagung pada tanggal 22 Desember 1992 bertepatan dengan hari Ibu.
+			</p>
+			<p>
+			saya terlahir dengan pasangan suami-istri Bapak Suyaji dan Ibu Triasih serta kedua saudara saya yang paling ganteng yaitu Mas Dedi dan adik Ijal Kami semua hidup bahagia dalam sebuah rumah di desa Bendungan Kecamatan Gondang Kabupaten Tulungagung.
+			</p>
+			<p>
+			Untuk Kegiatan Saya sekarang ini adalah saya tercatat sebagai mahasiswa Pendidikan Teknik Informatika 
+			Fakultas Teknik Universitas Negeri Malang
+			Harapan dan cita-cita saya adalah dapat membalas dan membahagiakan orang tua serta bermanfaat bagi siapapun yang ada disekitar saya.
+			tak banyak yang dapat saya ceritakan dalam biografi ini. 
+			Salam Kenal.....
+			See You... :D
+		</p>
+
+
 </body>
 </html>
