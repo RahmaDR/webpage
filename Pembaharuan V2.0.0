@@ -1,0 +1,654 @@
+{"name":"Webpage","tagline":"Anjar Dwi Rahmawati 110533406968 S1 PTI A 2011","body":"### Welcome to GitHub Pages.\r\nThis automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:\r\n\r\n```\r\n$ cd your_repo_root/repo_name\r\n$ git fetch origin\r\n$ git checkout gh-pages\r\n```\r\n\r\nIf you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.\r\n\r\n### Designer Templates\r\nWe've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.\r\n\r\n### Rather Drive Stick?\r\nIf you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.\r\n\r\n### Authors and Contributors\r\nYou can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.\r\n\r\n### Support or Contact\r\nHaving trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Autobiografi</title>
+</head>
+<style>
+/* UTILITIES */
+* {
+	 margin: 0;
+	 padding: 0;
+	 box-sizing: border-box;
+	}
+	body {
+	 font-family: cursive;
+	}
+	a {
+	 text-decoration: none;
+	}
+	li {
+	 list-style: none;
+	}
+	/* NAVBAR STYLING STARTS */
+	.navbar {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 padding: 20px;
+	 background-color: rgb(0, 0, 0);
+	 color: rgb(59, 247, 41);
+	}
+	.nav-links a {
+	 color: rgb(1, 202, 108);
+	}
+	/* LOGO */
+	.logo {
+	 font-size: 32px;
+	}
+	/* NAVBAR MENU */
+	.menu {
+	 display: flex;
+	 gap: 1em;
+	 font-size: 18px;
+	}
+	.menu li:hover {
+	 background-color: #000000;
+	 border-radius: 5px;
+	 transition: 0.3s ease;
+	}
+	.menu li {
+	 padding: 5px 14px;
+	}
+	/* DROPDOWN MENU */
+	.services {
+	 position: relative; 
+	}
+	.dropdown {
+	 background-color: rgb(0, 0, 0);
+	 padding: 1em 0;
+	 position: absolute; /*WITH RESPECT TO PARENT*/
+	 display: none;
+	 border-radius: 8px;
+	 top: 35px;
+	}
+	.dropdown li + li {
+	 margin-top: 10px;
+	}
+	.dropdown li {
+	 padding: 0.5em 1em;
+	 width: 8em;
+	 text-align: center;
+	}
+	.dropdown li:hover {
+	 background-color: #0b8cd6;
+	}
+	.services:hover .dropdown {
+	 display: block;
+	}
+	body {
+  background-image: url('wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+	h1{
+		align-self:"center";
+	    color: rgb(3, 14, 2);
+	}
+	p{
+		font-size: 20px;
+   		display: block;
+   		margin-top: 1em;
+   		margin-bottom: 1em;
+   		margin-left: 0;
+   		margin-right: 0;
+		text-align: justify;
+	}
+</style>
+<body>
+	<nav class="navbar">
+		<ul class="nav-links">
+		  <div class="menu">
+			<li><a href="index.html">index</a></li>
+			<li><a href="biografi.html">Biografi</a></li>
+			<li><a href="C_Vitae.html">Vitae</a></li>
+			<li><a href="form.html">Formulir</a></li>
+			</li>
+		  </div>
+		</ul>
+	  </nav>
+	<h1 style="color: green;">Anjar's AutoBiografi</h1>
+		<p><img src ="Foto10782.jpg"/></p>
+		<h3>Perkenalan</h3>
+			<p>
+			Perkenalkan nama lengkap saya adalah Anjar Dwi Rahmawati, teman-teman saya biasa menyapaku dengan nama Anjar.
+			<br> Aku terlahir 20 tahun yang lalu tepatnya di Kabupaten Tulungagung pada tanggal 22 Desember 1992 bertepatan dengan hari Ibu.
+			</p>
+			<p>
+			saya terlahir dengan pasangan suami-istri Bapak Suyaji dan Ibu Triasih serta kedua saudara saya yang paling ganteng yaitu Mas Dedi dan adik Ijal Kami semua hidup bahagia dalam sebuah rumah di desa Bendungan Kecamatan Gondang Kabupaten Tulungagung.
+			</p>
+			<p>
+			Untuk Kegiatan Saya sekarang ini adalah saya tercatat sebagai mahasiswa Pendidikan Teknik Informatika 
+			Fakultas Teknik Universitas Negeri Malang
+			Harapan dan cita-cita saya adalah dapat membalas dan membahagiakan orang tua serta bermanfaat bagi siapapun yang ada disekitar saya.
+			tak banyak yang dapat saya ceritakan dalam biografi ini. 
+			Salam Kenal.....
+			See You... :D
+		</p>
+
+
+</body>
+</html>
+<html>
+<head>
+	<title>
+	CV Anjar Dwi Rahmawati
+	</title>
+</head>
+<style>
+	/* UTILITIES */
+	* {
+		 margin: 0;
+		 padding: 0;
+		 box-sizing: border-box;
+		}
+		body {
+		 font-family: cursive;
+		}
+		a {
+		 text-decoration: none;
+		}
+		li {
+		 list-style: none;
+		}
+		/* NAVBAR STYLING STARTS */
+		.navbar {
+		 display: flex;
+		 align-items: center;
+		 justify-content: space-between;
+		 padding: 20px;
+		 background-color: rgb(0, 0, 0);
+		 color: rgb(59, 247, 41);
+		}
+		.nav-links a {
+		 color: rgb(1, 202, 108);
+		}
+		/* LOGO */
+		.logo {
+		 font-size: 32px;
+		}
+		/* NAVBAR MENU */
+		.menu {
+		 display: flex;
+		 gap: 1em;
+		 font-size: 18px;
+		}
+		.menu li:hover {
+		 background-color: #000000;
+		 border-radius: 5px;
+		 transition: 0.3s ease;
+		}
+		.menu li {
+		 padding: 5px 14px;
+		}
+		/* DROPDOWN MENU */
+		.services {
+		 position: relative; 
+		}
+		.dropdown {
+		 background-color: rgb(0, 0, 0);
+		 padding: 1em 0;
+		 position: absolute; /*WITH RESPECT TO PARENT*/
+		 display: none;
+		 border-radius: 8px;
+		 top: 35px;
+		}
+		.dropdown li + li {
+		 margin-top: 10px;
+		}
+		.dropdown li {
+		 padding: 0.5em 1em;
+		 width: 8em;
+		 text-align: center;
+		}
+		.dropdown li:hover {
+		 background-color: #0b8cd6;
+		}
+		.services:hover .dropdown {
+		 display: block;
+		}
+		body {
+	
+	  background-repeat: no-repeat;
+	  background-attachment: fixed; 
+	  background-size: 100% 100%;
+	}
+	
+		h1{
+			align-self:"center";
+			color: rgb(3, 14, 2);
+		}
+		p{
+			font-size: 20px;
+			   display: block;
+			   margin-top: 1em;
+			   margin-bottom: 1em;
+			   margin-left: 0;
+			   margin-right: 0;
+			text-align: justify;
+		}
+	</style>
+<body background="1024x768_retro.jpg"/>
+<nav class="navbar">
+	<ul class="nav-links">
+	  <div class="menu">
+		<li><a href="index.html">index</a></li>
+		<li><a href="biografi.html">Biografi</a></li>
+		<li><a href="C_Vitae.html">Vitae</a></li>
+		<li><a href="form.html">Formulir</a></li>
+		</li>
+	  </div>
+	</ul>
+  </nav>
+	<h1 align="center" style = >Curiculum Vitae</h1>
+	<p  style = "font-size: 18px  ">
+		<p align = "center"><img src ="Foto10782.jpg"/></p>
+		<br>Nama 		  : <span>Anjar Dwi Rahmawati</span></br>
+		<br>Tempat Lahir  : <span>Tulungagung</span></br>
+		<br>Tanggal Lahir : <span>22 Desember 1992</span></br>
+		<br>Alamat 		  : <span>Ds. Bendungan, Kec.Gondang, Tulungagung</span></br>
+		<br>Jenis Kelamin : <span>Wanita</span></br>
+		<br>Agama 		  : <span>Islam</span></br>
+		<br>Status 		  : <span>Belum Menikah</span></br>
+		<br>Telepon 	  : <span>085785456675</span></br>
+		<br>Email 		  : <span>anjar.drr22@gmail.com</span></br>
+		<ul style = "font-size: 18px  " > Riwayat Pendidikan :
+			<li>SDN Bendungan 2</li>
+			<li>SMP Negeri 1 Kauman</li>
+			<li>SMAN Kauman</li>
+			<li>UNIVERSITAS NEGERI MALANG, jurusan teknik elektro prodi pendidikan teknik informatika</li>
+		</ul>
+		<ul style = "font-size: 18px  " > Riwayat Organisasi :
+			<li>-</li>
+		</ul>
+		<ul style = "font-size: 18px  "  > Prestasi yang pernah diraih :
+			<li>-</li>
+		</ul>
+	</p>
+</body>
+</html>
+<html>
+<head>
+	<title>
+	FORM KURIKULUM VITAE
+	</title>
+</head>
+<style>
+	/* UTILITIES */
+	* {
+		 margin: 0;
+		 padding: 0;
+		 box-sizing: border-box;
+		}
+		body {
+		 font-family: cursive;
+		}
+		a {
+		 text-decoration: none;
+		}
+		li {
+		 list-style: none;
+		}
+		/* NAVBAR STYLING STARTS */
+		.navbar {
+		 display: flex;
+		 align-items: center;
+		 justify-content: space-between;
+		 padding: 20px;
+		 background-color: rgb(0, 0, 0);
+		 color: rgb(59, 247, 41);
+		}
+		.nav-links a {
+		 color: rgb(1, 202, 108);
+		}
+		/* LOGO */
+		.logo {
+		 font-size: 32px;
+		}
+		/* NAVBAR MENU */
+		.menu {
+		 display: flex;
+		 gap: 1em;
+		 font-size: 18px;
+		}
+		.menu li:hover {
+		 background-color: #000000;
+		 border-radius: 5px;
+		 transition: 0.3s ease;
+		}
+		.menu li {
+		 padding: 5px 14px;
+		}
+		/* DROPDOWN MENU */
+		.services {
+		 position: relative; 
+		}
+		.dropdown {
+		 background-color: rgb(0, 0, 0);
+		 padding: 1em 0;
+		 position: absolute; /*WITH RESPECT TO PARENT*/
+		 display: none;
+		 border-radius: 8px;
+		 top: 35px;
+		}
+		.dropdown li + li {
+		 margin-top: 10px;
+		}
+		.dropdown li {
+		 padding: 0.5em 1em;
+		 width: 8em;
+		 text-align: center;
+		}
+		.dropdown li:hover {
+		 background-color: #0b8cd6;
+		}
+		.services:hover .dropdown {
+		 display: block;
+		}
+		body {
+	  
+	  background-repeat: no-repeat;
+	  background-attachment: fixed; 
+	  background-size: 100% 100%;
+	}
+	
+		h1{
+			align-self:"center";
+			color: rgb(3, 14, 2);
+		}
+		p{
+			font-size: 20px;
+			   display: block;
+			   margin-top: 1em;
+			   margin-bottom: 1em;
+			   margin-left: 0;
+			   margin-right: 0;
+			text-align: justify;
+		}
+	</style>
+<body background="muffle_1024x768(2).jpg">
+	<nav class="navbar">
+		<ul class="nav-links">
+		  <div class="menu">
+			<li><a href="index.html">index</a></li>
+			<li><a href="biografi.html">Biografi</a></li>
+			<li><a href="C_Vitae.html">Vitae</a></li>
+			<li><a href="form.html">Formulir</a></li>
+			</li>
+		  </div>
+		</ul>
+	  </nav>
+	<h1 align="center">FORM KURIKULUM VITAE</h1>
+	<form>
+		<table border ="0">
+			<tr>
+			<td>Nama : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+			<tr>
+			<td>Tempat Lahir : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+			<tr>
+			<td>Tanggal Lahir (hr/bln/thn) : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="60"></td>
+			</tr>
+			<tr>
+			<td>Alamat : </td>
+			<td><textarea name ="alamat"
+				cols="30" rows ="5"></textarea></td>
+			</tr>
+			<tr>
+			<td>Jenis Kelamin : </td>
+			<td><input type = "radio" name="gender" value = "P"/>Pria</td>
+			<td><input type = "radio" name="gender" value = "W"/>Wanita</td>
+			</tr>
+			
+			<tr>
+			<td>Agama : </td>
+			<td><select name="agama" size="1">
+			<option value ="Islam">Islam</option>
+			<option value ="Katolik">Katolik</option>
+			<option value ="Protestan">Protestan</option>
+			<option value ="Hindu">Hindu</option>
+			<option value ="Budha">Budha</option>
+			</td>
+			</tr>
+
+			<tr>
+			<td>Status : </td>
+			<td><select name="status" size="1">
+			<option value ="Menikah">Menikah</option>
+			<option value ="belum Menikah">Belum Menikah</option>
+			</td>
+			</tr>
+
+			<tr>
+			<td>Telepon : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+
+			<tr>
+			<td>Email : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+			
+			<tr>
+			<td>Riwayat Pendidikan : </td>
+			</tr>
+
+			<tr>
+			<td>SD : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+
+			<tr>
+			<td>SMP : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+
+			<tr>
+			<td>SMA : </td>
+			<td><input type = "text" name="nama" size="40" maxlength ="25"></td>
+			</tr>
+
+			<tr>
+			<td>Riwayat Organisasi : </td>
+			<td><textarea name ="alamat"
+				cols="30" rows ="5"></textarea></td>
+			</tr>
+			
+			<tr>
+			<td>Prestasi yang pernah diraih : </td>
+			<td><textarea name ="alamat"
+				cols="30" rows ="5"></textarea></td>
+			</tr>
+			<tr>
+			<td><input type = "submit" name = "btnsubmit" value = "KIRIM"/></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Webpage : Anjar Dwi Rahmawati 110533406968 S1 PTI A 2011" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Webpage</title>
+  </head>
+  <style>
+    /* UTILITIES */
+    * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+      }
+      body {
+       font-family: cursive;
+      }
+      a {
+       text-decoration: none;
+      }
+      li {
+       list-style: none;
+      }
+      /* NAVBAR STYLING STARTS */
+      .navbar {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       padding: 20px;
+       background-color: rgb(0, 0, 0);
+       color: rgb(59, 247, 41);
+      }
+      .nav-links a {
+       color: rgb(1, 202, 108);
+      }
+      /* LOGO */
+      .logo {
+       font-size: 32px;
+      }
+      /* NAVBAR MENU */
+      .menu {
+       display: flex;
+       gap: 1em;
+       font-size: 18px;
+      }
+      .menu li:hover {
+       background-color: #000000;
+       border-radius: 5px;
+       transition: 0.3s ease;
+      }
+      .menu li {
+       padding: 5px 14px;
+      }
+      /* DROPDOWN MENU */
+      .services {
+       position: relative; 
+      }
+      .dropdown {
+       background-color: rgb(0, 0, 0);
+       padding: 1em 0;
+       position: absolute; /*WITH RESPECT TO PARENT*/
+       display: none;
+       border-radius: 8px;
+       top: 35px;
+      }
+      .dropdown li + li {
+       margin-top: 10px;
+      }
+      .dropdown li {
+       padding: 0.5em 1em;
+       width: 8em;
+       text-align: center;
+      }
+      .dropdown li:hover {
+       background-color: #0b8cd6;
+      }
+      .services:hover .dropdown {
+       display: block;
+      }
+      body {
+     
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+    
+      h1{
+        align-self:"center";
+          color: rgb(3, 14, 2);
+      }
+      p{
+        font-size: 20px;
+           display: block;
+           margin-top: 1em;
+           margin-bottom: 1em;
+           margin-left: 0;
+           margin-right: 0;
+        text-align: justify;
+      }
+    </style>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <div class="menu">
+        <li><a href="index.html">index</a></li>
+        <li><a href="biografi.html">Biografi</a></li>
+        <li><a href="C_Vitae.html">Vitae</a></li>
+        <li><a href="form.html">Formulir</a></li>
+        </li>
+        </div>
+      </ul>
+      </nav>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/RahmaDR/webpage">View on GitHub</a>
+
+          <h1 id="project_title">Webpage</h1>
+          <h2 id="project_tagline">Anjar Dwi Rahmawati 110533406968 S1 PTI A 2011</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/RahmaDR/webpage/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/RahmaDR/webpage/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>Welcome to GitHub Pages.</h3>
+
+<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+
+<pre><code>$ cd your_repo_root/repo_name
+$ git fetch origin
+$ git checkout gh-pages
+</code></pre>
+
+<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+
+<h3>Designer Templates</h3>
+
+<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+
+<h3>Rather Drive Stick?</h3>
+
+<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+
+<h3>Authors and Contributors</h3>
+
+<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+
+<h3>Support or Contact</h3>
+
+<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Webpage maintained by <a href="https://github.com/RahmaDR">RahmaDR</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
